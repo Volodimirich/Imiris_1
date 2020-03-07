@@ -1,0 +1,46 @@
+from turtle import *
+from random import *
+from math import *
+
+
+# TODO: do not go off screen
+# TODO: eliminate small radius
+def IsIn(Rad, AngRot, AngCord):
+    Orient = 1 if Rad > 0 else -1
+    CirMid = tuple(x + y for x, y in zip(pos(), (-Rad * sin(radians(AngCord)), Rad * cos(radians(AngCord)))))
+    print("State ----- ", Rad, AngRot, AngCord, pos(), CirMid)
+    XBord = (-window_width() // 2 - CirMid[0], window_width() // 2 - CirMid[0])
+    YBord = (-window_height() // 2 - CirMid[1], window_height() // 2 - CirMid[1])
+    NewPos = tuple(x - y for x, y in zip(pos(), CirMid))
+    XFut = NewPos[0] * cos(radians(AngRot)) - Orient * NewPos[1] * sin(radians(AngRot))
+    YFut = Orient * NewPos[0] * sin(radians(AngRot)) + NewPos[1] * cos(radians(AngRot))
+    # print(pos(), end=" --------- ")
+    # circle(Rad, AngRot)
+    # print(pos(), "-------", XFut + CirMid[0], YFut + CirMid[1])
+    # undo()
+    # print("Borders: ", window_width(),XBord, CirMid,XFut + CirMid[0], YFut + CirMid[1])
+    # print(XFut >= XBord[1],XFut <= XBord[0],YFut >= YBord[1],YFut <= YBord[0])
+    return False if (XFut >= XBord[1] or XFut <= XBord[0] or YFut >= YBord[1] or YFut <= YBord[0]) else True
+
+
+pensize(5)
+CurAngle = 0
+speed(4)
+while True:
+    color(random(), random(), random())
+    RandRad = randrange(-60, 60)
+    # RandRad = -700
+    RotAngle = randrange(20, 180)
+    # RotAngle = 30
+    while not IsIn(RandRad, RotAngle, CurAngle):
+        while (abs(RandRad)<30):
+            RandRad = randrange(-60, 60)
+        RotAngle = randrange(20, 360)
+    circle(RandRad, RotAngle)
+    CurAngle += RotAngle if RandRad > 0 else -RotAngle
+    if CurAngle > 360:
+        CurAngle -= 360
+    if CurAngle < 0:
+        CurAngle += 360
+
+exitonclick()
