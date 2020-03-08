@@ -3,21 +3,20 @@ from random import randrange
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
-
-SZ = 100, 80
+clock = pygame.time.Clock()
 
 windows, nwin = [], 0
 while True:
-    evs = pygame.event.get()
-    for e in evs:
+    pygame.time.set_timer(pygame.USEREVENT, 1000)
+    pygame.time.wait(500)
+    for e in pygame.event.get():
         if e.type is pygame.QUIT:
             print("QUIT")
             break
         if e.type is pygame.MOUSEBUTTONDOWN:
             if e.button == 3:
                 color = pygame.Color(randrange(100, 256), randrange(100, 256), randrange(100, 256))
-                # windows.append((nwin, color, pygame.Rect(e.pos, SZ)))
-                LineLen = (randrange(0, screen.get_width() // 2),0)
+                LineLen = (randrange(0, screen.get_width() // 2), 0)
                 windows.append(
                     (nwin, color, pygame.draw.line(screen, color, tuple(x - y for x, y in zip(e.pos, LineLen)), tuple(
                         x + y for x, y in zip(e.pos, LineLen)), randrange(1, 5))))
