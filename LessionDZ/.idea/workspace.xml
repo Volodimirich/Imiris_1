@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21734435-9b7c-4dd6-b77b-87405b2219a7" name="Default Changelist" comment="" />
+    <list default="true" id="21734435-9b7c-4dd6-b77b-87405b2219a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Game" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YhlBY6CLh3ZvnWBVxKNVZjwozv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,9 +25,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Turtle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Game">
+    <configuration name="Game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LessionDZ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Turtle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LessionDZ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -43,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Game" />
         <item itemvalue="Python.Turtle" />
       </list>
     </recent_temporary>
@@ -66,6 +104,7 @@
       <workItem from="1583424113048" duration="594000" />
       <workItem from="1583526334604" duration="6767000" />
       <workItem from="1583534453127" duration="9519000" />
+      <workItem from="1583625546164" duration="3221000" />
     </task>
     <servers />
   </component>
@@ -73,50 +112,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="707" y="326" width="500" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583402699010">
+    <state x="707" y="326" width="500" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583625573336">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="707" y="326" width="500" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1043@0.0.1920.1043" timestamp="1583402699010" />
+    <state x="707" y="326" width="500" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1043@0.0.1920.1043" timestamp="1583625573336" />
     <state x="743" y="279" width="428" height="484" key="FileChooserDialogImpl" timestamp="1583405032079">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="743" y="279" width="428" height="484" key="FileChooserDialogImpl/0.0.1920.1043@0.0.1920.1043" timestamp="1583405032079" />
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1583546194134">
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1583628699518">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1043@0.0.1920.1043" timestamp="1583546194134" />
-    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1583546194134">
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1043@0.0.1920.1043" timestamp="1583628699518" />
+    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1583628699517">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.center/0.0.1920.1043@0.0.1920.1043" timestamp="1583546194134" />
-    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1583546194133">
+    <state width="1874" height="273" key="GridCell.Tab.0.center/0.0.1920.1043@0.0.1920.1043" timestamp="1583628699517" />
+    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1583628699517">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.left/0.0.1920.1043@0.0.1920.1043" timestamp="1583546194133" />
-    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1583546194134">
+    <state width="1874" height="273" key="GridCell.Tab.0.left/0.0.1920.1043@0.0.1920.1043" timestamp="1583628699517" />
+    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1583628699518">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.right/0.0.1920.1043@0.0.1920.1043" timestamp="1583546194134" />
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1583545703819">
+    <state width="1874" height="273" key="GridCell.Tab.0.right/0.0.1920.1043@0.0.1920.1043" timestamp="1583628699518" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1583626396633">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1043@0.0.1920.1043" timestamp="1583545703819" />
-    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1583545703818">
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1043@0.0.1920.1043" timestamp="1583626396633" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1583626396632">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.center/0.0.1920.1043@0.0.1920.1043" timestamp="1583545703818" />
-    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1583545703818">
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.0.1920.1043@0.0.1920.1043" timestamp="1583626396632" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1583626396632">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.left/0.0.1920.1043@0.0.1920.1043" timestamp="1583545703818" />
-    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1583545703819">
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.0.1920.1043@0.0.1920.1043" timestamp="1583626396632" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1583626396633">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.right/0.0.1920.1043@0.0.1920.1043" timestamp="1583545703819" />
-    <state x="639" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1583534454010">
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.0.1920.1043@0.0.1920.1043" timestamp="1583626396633" />
+    <state x="574" y="201" key="SettingsEditor" timestamp="1583626066361">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="639" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1043@0.0.1920.1043" timestamp="1583534454010" />
+    <state x="574" y="201" key="SettingsEditor/0.0.1920.1043@0.0.1920.1043" timestamp="1583626066361" />
+    <state x="639" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1583625546811">
+      <screen x="0" y="0" width="1920" height="1043" />
+    </state>
+    <state x="639" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1043@0.0.1920.1043" timestamp="1583625546811" />
     <state x="512" y="251" width="890" height="542" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583541890591">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
@@ -126,7 +169,18 @@
     </state>
     <state x="1150" y="364" width="672" height="678" key="search.everywhere.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1583541807445" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Game</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LessionDZ$Turtle.coverage" NAME="Turtle Coverage Results" MODIFIED="1583546194118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LessionDZ$Game.coverage" NAME="Game Coverage Results" MODIFIED="1583628699501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
